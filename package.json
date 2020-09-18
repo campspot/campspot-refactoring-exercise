@@ -4,8 +4,7 @@
   "description": "campspot refactoring exercise",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc",
-    "test": "ts-node node_modules/jasmine/bin/jasmine -- config=jasmine.json"
+    "test": "jasmine-ts --config=jasmine.json"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,8 @@
   "devDependencies": {
     "@types/jasmine": "^3.5.14",
     "jasmine": "^3.6.1",
+    "jasmine-spec-reporter": "^5.0.2",
+    "jasmine-ts": "^0.3.0",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
   }

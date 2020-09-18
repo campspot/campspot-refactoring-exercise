@@ -1,4 +1,4 @@
-import { NameParser } from "./name-parser";
+import { NameParser } from "../src/name-parser";
 
 describe('parseFirstAndLastNameFromName', () => {
   let formAddressService: NameParser = new NameParser();

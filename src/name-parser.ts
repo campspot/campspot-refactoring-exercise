@@ -7,7 +7,7 @@ export class NameParser {
         let firstName: string;
         let lastName: string;
         const partsOfName = name.trim().split(' ');
-        let suffix: string = null;
+        let suffix: string = "";
         if (this.suffixRegex.test(partsOfName[partsOfName.length - 1])) {
           suffix = partsOfName[partsOfName.length - 1];
           partsOfName.pop();
@@ -42,6 +42,6 @@ export class NameParser {
 }
 
 export class firstAndLastName {
-    firstName: String;
-    lastName: String;
+    firstName!: String;
+    lastName!: String;
 }
