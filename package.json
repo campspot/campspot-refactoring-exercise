@@ -1,0 +1,26 @@
+{
+  "name": "@campspot/campspot-refactoring-exercise",
+  "version": "1.0.0",
+  "description": "campspot refactoring exercise",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "ts-node node_modules/jasmine/bin/jasmine -- config=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campspot/campspot-refactoring-exercise.git"
+  },
+  "author": "Campspot",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/campspot/campspot-refactoring-exercise/issues"
+  },
+  "homepage": "https://github.com/campspot/campspot-refactoring-exercise#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.5.14",
+    "jasmine": "^3.6.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
