@@ -3,7 +3,7 @@ export class NameParser {
     private readonly suffixRegex: RegExp = new RegExp(/^(((jr|sr)?(\.)*)|(i|ii|iii|iv|v|vi|vii|viii|ix|x))$/i);
     private readonly compoundNameRegex: RegExp = new RegExp(/(^(di|del|der|mc|le|la|dela|da|o|san|ten|ter|von|ver|vonder|vande|vander|te|bon|lo|pena|el|dos|du|st|ste|den|don|mac|bin|van|de)?(\.)*$)/i);
 
-    public parseFirstAndLastNameFromNameField(name: string): firstAndLastName {
+    public getFirstAndLastName(name: string): firstAndLastName {
         let firstName: string;
         let lastName: string;
         const partsOfName = name.trim().split(' ');
