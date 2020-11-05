@@ -9,3 +9,11 @@ Getting Started
 1. `nvm use 12`
 2. `npm install`
 3. `npm run test`
+
+Documentation
+1. Website for testing regular expressions [regex101](https://regex101.com/)
+
+IntelliJ IDE Docs
+1. [Typescript Plugin](https://www.jetbrains.com/help/idea/typescript-support.html)
+1. [Jasmine Plugin](https://plugins.jetbrains.com/plugin/10449-jasmine)
+1. [Running and debugging Typescript](https://www.jetbrains.com/help/idea/running-and-debugging-typescript.html)
