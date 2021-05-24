@@ -19,4 +19,4 @@ IntelliJ IDE Docs
 1. [Running and debugging Typescript](https://www.jetbrains.com/help/idea/running-and-debugging-typescript.html)
 
 Visual Studio Code Docs
-1. [Jasmien Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-jasmine-test-adapter)
+1. [Jasmine Test Explorer](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-jasmine-test-adapter)
